@@ -1,0 +1,35 @@
+{
+  "project_id": "HIVenues",
+  "name": "HiVenues",
+  "repository": "etblink/HiVenues",
+  "canonical_ref": "main",
+  "canonical_commit": "9351655112a25fd8a1d115d8c402534726b1e035",
+  "state": "FROZEN",
+  "summary": "The existing HiVenues product is in PM4 with Issue #199 still open. Canonical main includes the accepted shared-menu scalar slice from PR #207. The repository is deliberately parked by the operator while an isolated GPT-6 Astra greenfield challenge runs independently.",
+  "accepted_results": [
+    "Canonical main 9351655112a25fd8a1d115d8c402534726b1e035 is the merged PR #207 tree for shared menu title, section title, item name, optional description, and price-label editing through ordinary Studio controls.",
+    "PR #207 records accepted head 1d5f243f8a3cfcd7b5fe87b403edaad6c6b60df9, identical canonical tree 15e1d93a6f84bbca233e9313410b29bc88ef470b, CI756 success, independent A/B/C pass, and canonical CI757 pass.",
+    "Issue #199 remains open; earlier bounded slices accepted resource scalar editing and resource lifecycle/list-order work without closing PM4.",
+    "Issue #200 remains open as the final measured quality/release gate after reference work and complete operator-journey work."
+  ],
+  "open_questions": [
+    "Issue #199 remaining work includes menu creation/removal/order, ticket and reservation actions, timestamp editing, general media, component recipes/catalog completion, and complete fresh-archetype journeys.",
+    "After #199, the planned explicit idealized-vs-current 2026 visual convergence remains to be performed.",
+    "Issue #200 must then adjudicate the four references and complete operator journey against measured Tracks A/B/C quality-release gates."
+  ],
+  "blockers": [
+    "Deliberate operator-imposed isolation: existing HiVenues work is parked so the independent GPT-6 Astra greenfield challenge is not contaminated by the current implementation."
+  ],
+  "next_triggers": [
+    "GPT-6 Astra usage credits are expected to become available on 2026-09-14 so the existing isolated Work session can be continued.",
+    "Completion of Astra's independent greenfield challenge and preservation of its output as an independent comparison point before resuming cross-pollination with the existing HiVenues implementation."
+  ],
+  "superseded_material": [],
+  "observed_at": "2026-09-11T21:05:00Z",
+  "sources": [
+    {"path": "pull/207", "ref": "main", "commit": "9351655112a25fd8a1d115d8c402534726b1e035"},
+    {"path": "issues/199", "ref": "main", "commit": "9351655112a25fd8a1d115d8c402534726b1e035"},
+    {"path": "issues/200", "ref": "main", "commit": "9351655112a25fd8a1d115d8c402534726b1e035"}
+  ],
+  "notes": "FROZEN is an Observatory operational state, not a claim that the GitHub repository is complete or technically blocked. The isolation rule is user-directed and exists to preserve the independence of the separate Astra greenfield experiment."
+}

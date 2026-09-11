@@ -1,0 +1,38 @@
+{
+  "project_id": "PGH",
+  "name": "Physical Grammar Hypothesis",
+  "repository": "etblink/Physical-Grammar-Hypothesis",
+  "canonical_ref": "main",
+  "canonical_commit": "d8a16161f33d3bb8f97c15f095ca651c169f5896",
+  "state": "BLOCKED_EXTERNAL",
+  "summary": "PGH-GRAM-0010 / PGH-OBJ-0052 remains an A0-A9-admitted but empirically untested physical candidate. The latest canonical main qualifies a negative-only mechanically ganged three-pole dry-contact interface design, but no apparatus, target, target values, or response data yet exist.",
+  "accepted_results": [
+    "PGH-GRAM-0010 is the active grammar candidate and PGH-OBJ-0052 is the active strong candidate package; PGH-OBJ-0052 admission is A0-A9 PASS and empirical status remains UNTESTED.",
+    "FCP classified the exact candidate as a nonframework physical model/postulate; FW-PGH does not exist, no existing FCP host is established, and the FCP result provides no empirical credit.",
+    "The adversarial physical-interface design gate selects D1__MECHANICALLY_GANGED_THREE_POLE_SWITCH_INTERFACE as the weakest adequate design class.",
+    "The design gate generates no physical data, selects no actual target, and gives zero empirical evidence from the expected common-bit direction.",
+    "The required scientific sequence is apparatus realization and target freeze, then negative-only analysis preregistration, and only then physical trial execution and response data."
+  ],
+  "open_questions": [
+    "Whether the realized D1 apparatus and prospectively frozen target will reject the candidate's T_ind model under a separately qualified finite-sample decision functional.",
+    "Exact apparatus identity, channel identifiers, target identity, wiring manifest, settle interval, custody path, and hashes are not yet bound.",
+    "Strong PGH remains unconfirmed and R2B remains unsatisfied."
+  ],
+  "blockers": [
+    "The actual apparatus has not been realized or bound; the user/operator confirmed on 2026-09-11 that required experiment parts have not yet arrived.",
+    "No target freeze or analysis preregistration may occur as though physical response data already exist."
+  ],
+  "next_triggers": [
+    "Arrival of the required physical components, enabling a separately governed apparatus-realization and target-freeze operation.",
+    "After target/interface freeze, canonical negative-only analysis preregistration must complete before any physical trials."
+  ],
+  "superseded_material": [
+    "The CURRENT_STATE.md navigation capsule still reports PGH-OP-0115/0116 and NEXT_RECOMMENDED_OPERATION = NONE; this routing surface predates the latest canonical adversarial physical-interface design-gate merge."
+  ],
+  "observed_at": "2026-09-11T21:05:00Z",
+  "sources": [
+    {"path": "CURRENT_STATE.md", "ref": "main", "commit": "d8a16161f33d3bb8f97c15f095ca651c169f5896"},
+    {"path": "audits/PGH1_ADVERSARIAL_PHYSICAL_INTERFACE_DESIGN_GATE_0_1_0.md", "ref": "main", "commit": "d8a16161f33d3bb8f97c15f095ca651c169f5896"}
+  ],
+  "notes": "BLOCKED_EXTERNAL uses both repository evidence (the next sequence requires apparatus realization and no apparatus is yet bound) and direct operator confirmation in the Project Observatory session that the required parts are still in transit. The operator confirmation is not itself a PGH repository artifact."
+}

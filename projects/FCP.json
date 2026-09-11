@@ -1,0 +1,36 @@
+{
+  "project_id": "FCP",
+  "name": "Foundational Convergence Program",
+  "repository": "etblink/Foundational-Convergence-Program",
+  "canonical_ref": "main",
+  "canonical_commit": "e7dd1473e5ab89b4657d33e9b05fe90ae2ae7a65",
+  "state": "WAITING_FOR_EVIDENCE",
+  "summary": "FCP is on an evidence-triggered hold. Method 0.2.1 is active prospectively; the latest canonical scientific operation is the PGH Stage-2 taxonomy gate, which classified PGH-GRAM-0010 / PGH-OBJ-0052 as a nonframework physical model/postulate, created no FW-PGH, and established no existing framework host.",
+  "accepted_results": [
+    "LATEST_NUMBERED_PHASE remains FCP-26; later operations are unnumbered and FCP-27 is not selected.",
+    "Method 0.2.1 is active prospectively.",
+    "FCP PGH Stage 1 froze a 31-record corpus; Stage 2 classified PGH-GRAM-0010 / PGH-OBJ-0052 as B__CLASSIFY_AS_NONFRAMEWORK_PHYSICAL_MODEL_OR_POSTULATE with framework-distinctness criterion G controlling the admission failure.",
+    "FW-PGH does not exist, no existing FCP framework host is established, and PGH empirical truth remains unadjudicated.",
+    "The post-PGH sequencing corrective preserves FCP_SEQUENCING_DECISION = EVIDENCE_TRIGGERED_HOLD and selects no immediate new FCP scientific operation."
+  ],
+  "open_questions": [
+    "What future evidence, if any, will satisfy a legitimate FCP evidence trigger for a new scientific operation?",
+    "FCP-27 remains unselected.",
+    "PGH empirical truth remains outside the taxonomy result and unadjudicated."
+  ],
+  "blockers": [
+    "No currently established evidence trigger justifies a new FCP framework intake, source search, pairwise comparison, recurrence recomputation, or FCP-27."
+  ],
+  "next_triggers": [
+    "A material evidence event that independently satisfies FCP sequencing governance and justifies a separately preregistered operation."
+  ],
+  "superseded_material": [
+    "The earlier immediate cross-program recommendation to begin PGH target discovery is superseded; the FCP evidence-triggered hold itself is retained."
+  ],
+  "observed_at": "2026-09-11T21:05:00Z",
+  "sources": [
+    {"path": "CURRENT_STATE.md", "ref": "main", "commit": "e7dd1473e5ab89b4657d33e9b05fe90ae2ae7a65"},
+    {"path": "governance/POST_PGH_STAGE2_SCIENTIFIC_SEQUENCING_CORRECTIVE_0_1_0.md", "ref": "main", "commit": "e7dd1473e5ab89b4657d33e9b05fe90ae2ae7a65"}
+  ],
+  "notes": "The current FCP main commit predates the latest PGH physical-interface design-gate merge by roughly one hour. The Observatory treats that as a cross-project routing-freshness issue, not as evidence that the preserved FCP evidence-triggered hold is scientifically invalid."
+}

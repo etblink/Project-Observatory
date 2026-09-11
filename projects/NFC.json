@@ -1,0 +1,39 @@
+{
+  "project_id": "NFC",
+  "name": "Nested Fibrational Cosmology",
+  "repository": "etblink/Nested-Fibrational-Cosmology",
+  "canonical_ref": "archive/nfc-canonical-ed3047c2",
+  "canonical_commit": "ed3047c2cbc0abc34d2549dd27754e4d3d05af78",
+  "state": "READY_FOR_NEXT_OPERATION",
+  "summary": "The frozen scientific canon is recoverable at archive/nfc-canonical-ed3047c2, while the repository default main is a stripped public surface containing only README/CITATION/LICENSE. A separate noncanonical foundational-reduction continuity branch records later adversarial diagnostics without modifying the frozen canon.",
+  "accepted_results": [
+    "Frozen canonical source boundary is commit ed3047c2cbc0abc34d2549dd27754e4d3d05af78; later diagnostic research explicitly preserves the rule that frozen canon plus later diagnostics does not equal expanded canon.",
+    "The canonical rewrite/validation corpus contains seven spine books and ten branch books with validation machinery and a frozen authority model separating status, frontier, obligation, and branch-posture accountings.",
+    "MIG-052 Corrective J controls the canonical Navier–Stokes posture: CERT-PROJ / open common-state frontier; ob:NS-common-state-bridge is the sole formal internal [O], UWB is a separate unproved conditional scope hypothesis, and unconditional Stage-3 regularity remains external.",
+    "At the MIG-052 tip the stated corpus census is D461/U211/C749/B9/O6/R366 and the reduced internal frontier is 5."
+  ],
+  "open_questions": [
+    "Full-corpus source forcing/nonforcing remains unresolved in the noncanonical foundational-reduction continuity record.",
+    "A canonical physical selection bridge from the maximal admissible process class to the actual physical history is not established.",
+    "Physical interpretation and empirical authority are absent from the frozen foundational source boundary recorded by the diagnostic continuity document.",
+    "Finite interface sufficiency / LS-2-like screening remains an additional hypothesis rather than a consequence of locality alone.",
+    "The strong historical 'No Universal Wavefunction' impossibility claim is withdrawn in the diagnostic continuity record; the globalization-obstruction question remains open."
+  ],
+  "blockers": [],
+  "next_triggers": [
+    "A separately preregistered adversarial audit may be selected after the Project Observatory dependency and uncertainty snapshot is frozen; such an audit must remain noncanonical unless separately integrated under NFC governance."
+  ],
+  "superseded_material": [
+    "The former NS domain-bounded conditional CERT-CLOSE wording is superseded by MIG-052 and may not be cited as the current NS posture.",
+    "Default-branch repository contents are not sufficient to reconstruct the frozen scientific canon and must not be treated as silently superseding the archived canonical source."
+  ],
+  "observed_at": "2026-09-11T21:05:00Z",
+  "sources": [
+    {"path": "CANON_AUTHORITY_MODEL.md", "ref": "archive/nfc-canonical-ed3047c2", "commit": "ed3047c2cbc0abc34d2549dd27754e4d3d05af78"},
+    {"path": "FINAL_VALIDATION_REPORT.md", "ref": "archive/nfc-canonical-ed3047c2", "commit": "ed3047c2cbc0abc34d2549dd27754e4d3d05af78"},
+    {"path": "NFC_NS_Branch.tex", "ref": "archive/nfc-canonical-ed3047c2", "commit": "ed3047c2cbc0abc34d2549dd27754e4d3d05af78"},
+    {"path": "research/NFC_FOUNDATIONAL_REDUCTION_CONTINUITY.md", "ref": "research/foundational-reduction-continuity", "commit": "4d78d21b7750a568cee590d2b749837c3f325d8b"},
+    {"path": "README.md", "ref": "main", "commit": "b8587ce3409e34c0dd4e56c61ee585c07798b0e5"}
+  ],
+  "notes": "Repository provenance is intentionally split: scientific canonical identity is bound to the archive ref, while public main is a stripped publication surface. The noncanonical research continuity branch is evidence about the frozen canon, not an extension of it. Project state READY_FOR_NEXT_OPERATION means the diagnostic program has a resumable continuity record; it does not mean a new NFC scientific operation is already authorized."
+}

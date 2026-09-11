@@ -12,7 +12,9 @@ Cross-project, read-only observatory for reconstructing canonical state, depende
 - Dependency reconstruction v0.1: complete.
 - Uncertainty / information-gain register v0.1: complete.
 - Discrepancy docket and external-trigger register: populated.
+- Snapshot v0.1: **FROZEN** at content commit `09856095d8ff1f29f72676a768896b4f425edf17`, tree `c3cd39ce3de7d11faf1680321e4f843cd1ddd94a`.
+- Snapshot manifest: `snapshots/PROJECT_OBSERVATORY_SNAPSHOT_V0_1.md`.
 - Observed-project mutation: none.
 - New NFC adversarial target selected: no.
 
-The next governance step is to freeze an exact Observatory snapshot binding the reconstructed records and observed repository identities. Only after that snapshot exists may a separate operation select a candidate NFC adversarial target under the charter's firewall.
+The Charter's pre-selection firewall is now satisfied through snapshot freeze. A **separate post-snapshot operation may now select** a candidate NFC adversarial target from the frozen uncertainty/dependency picture, but selection does not authorize execution: any audit must then be prospectively preregistered before it is run.

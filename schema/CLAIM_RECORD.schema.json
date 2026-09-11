@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "CLAIM_RECORD.schema.json",
+  "title": "Project Observatory Claim Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["claim_id", "project_id", "statement", "status", "canonical_sources"],
+  "properties": {
+    "claim_id": {"type": "string", "minLength": 1},
+    "project_id": {"type": "string", "minLength": 1},
+    "statement": {"type": "string", "minLength": 1},
+    "status": {"enum": ["CANONICAL", "CANDIDATE", "PROVISIONAL", "UNRESOLVED", "SUPERSEDED", "REJECTED", "UNKNOWN"]},
+    "claim_type": {"enum": ["SCIENTIFIC", "EXPERIMENTAL", "ARCHITECTURAL", "PRODUCT", "OPERATIONAL", "GOVERNANCE", "OTHER"]},
+    "canonical_sources": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "evidence": {"type": "array", "items": {"type": "string"}},
+    "challenges_survived": {"type": "array", "items": {"type": "string"}},
+    "known_limitations": {"type": "array", "items": {"type": "string"}},
+    "residual_uncertainty": {"type": "string"},
+    "change_conditions": {"type": "array", "items": {"type": "string"}},
+    "downstream_claim_ids": {"type": "array", "items": {"type": "string"}},
+    "notes": {"type": "string"}
+  }
+}

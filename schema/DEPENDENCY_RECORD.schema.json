@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "DEPENDENCY_RECORD.schema.json",
+  "title": "Project Observatory Dependency Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["dependency_id", "upstream", "downstream", "class", "basis", "status"],
+  "properties": {
+    "dependency_id": {"type": "string", "minLength": 1},
+    "upstream": {"type": "string", "minLength": 1},
+    "downstream": {"type": "string", "minLength": 1},
+    "class": {"enum": ["HARD", "SOFT", "CONTEXTUAL", "NONE", "UNKNOWN"]},
+    "basis": {"type": "string", "minLength": 1},
+    "status": {"enum": ["VERIFIED", "PROVISIONAL", "DISPUTED", "UNRESOLVED"]},
+    "source_refs": {"type": "array", "items": {"type": "string"}},
+    "counterfactual": {"type": "string"},
+    "notes": {"type": "string"}
+  }
+}

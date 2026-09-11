@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "UNCERTAINTY_RECORD.schema.json",
+  "title": "Project Observatory Uncertainty Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["uncertainty_id", "subject", "question", "uncertainty_rank", "downstream_leverage", "outcome_divergence", "tractability", "basis"],
+  "properties": {
+    "uncertainty_id": {"type": "string", "minLength": 1},
+    "subject": {"type": "string", "minLength": 1},
+    "question": {"type": "string", "minLength": 1},
+    "uncertainty_rank": {"enum": ["LOW", "MEDIUM", "HIGH", "UNKNOWN"]},
+    "downstream_leverage": {"enum": ["LOW", "MEDIUM", "HIGH", "UNKNOWN"]},
+    "outcome_divergence": {"enum": ["LOW", "MEDIUM", "HIGH", "UNKNOWN"]},
+    "tractability": {"enum": ["LOW", "MEDIUM", "HIGH", "UNKNOWN"]},
+    "basis": {"type": "string", "minLength": 1},
+    "candidate_resolution": {"type": "string"},
+    "source_refs": {"type": "array", "items": {"type": "string"}},
+    "notes": {"type": "string"}
+  }
+}

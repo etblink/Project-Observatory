@@ -4,36 +4,39 @@
   "repository": "etblink/Nested-Fibrational-Cosmology",
   "canonical_ref": "archive/nfc-canonical-ed3047c2",
   "canonical_commit": "ed3047c2cbc0abc34d2549dd27754e4d3d05af78",
-  "state": "READY_FOR_NEXT_OPERATION",
-  "summary": "The frozen scientific canon is recoverable at archive/nfc-canonical-ed3047c2, while the repository default main is a stripped public surface containing only README/CITATION/LICENSE. A separate noncanonical foundational-reduction continuity branch records later adversarial diagnostics without modifying the frozen canon.",
+  "state": "READY_FOR_NEXT_OPERATION__PROVENANCE_HARDENED",
+  "summary": "The frozen scientific canon remains exactly at archive/nfc-canonical-ed3047c2 / ed3047c2cbc0abc34d2549dd27754e4d3d05af78 / tree 00ef55ff36d5e9663ca1ef2c9566e2bc1396f973. The publication/default main has been provenance-hardened at 5072d563b0a3dd4a7643be427cd47108216d8793: README routing now names the frozen theorem source, PROVENANCE.md records the disconnected-history/re-root crosswalk, tag nfc-canonical-ed3047c2 anchors the frozen canon, and historical release tag v1.0-canon-rewrite is restored at 716e6fae585251185ffd15775dd923132f16c88e. No theorem-bearing scientific content was changed by that maintenance operation.",
   "accepted_results": [
     "Frozen canonical source boundary is commit ed3047c2cbc0abc34d2549dd27754e4d3d05af78; later diagnostic research explicitly preserves the rule that frozen canon plus later diagnostics does not equal expanded canon.",
     "The canonical rewrite/validation corpus contains seven spine books and ten branch books with validation machinery and a frozen authority model separating status, frontier, obligation, and branch-posture accountings.",
     "MIG-052 Corrective J controls the canonical Navier–Stokes posture: CERT-PROJ / open common-state frontier; ob:NS-common-state-bridge is the sole formal internal [O], UWB is a separate unproved conditional scope hypothesis, and unconditional Stage-3 regularity remains external.",
-    "At the MIG-052 tip the stated corpus census is D461/U211/C749/B9/O6/R366 and the reduced internal frontier is 5."
+    "At the MIG-052 tip the stated corpus census is D461/U211/C749/B9/O6/R366 and the reduced internal frontier is 5.",
+    "Repository provenance/routing hardening is complete at the audited scope: publication main and scientific canon remain distinct, but canonical-source routing, exact canon tag, historical release-tag restoration, and repository-native provenance crosswalk are explicit."
   ],
   "open_questions": [
     "Full-corpus source forcing/nonforcing remains unresolved in the noncanonical foundational-reduction continuity record.",
-    "A canonical physical selection bridge from the maximal admissible process class to the actual physical history is not established.",
+    "A canonical physical selection bridge from the maximal admissible process class to the actual physical history is not established by the frozen canon; Observatory source-forcing audits do not silently alter that source status.",
     "Physical interpretation and empirical authority are absent from the frozen foundational source boundary recorded by the diagnostic continuity document.",
-    "Finite interface sufficiency / LS-2-like screening remains an additional hypothesis rather than a consequence of locality alone.",
-    "The strong historical 'No Universal Wavefunction' impossibility claim is withdrawn in the diagnostic continuity record; the globalization-obstruction question remains open."
+    "Finite-interface sufficiency / LS-2-like screening is not source-forced by the audited antecedent structure; the frozen Book-II universal-discharge dependency issue identified as OBS-D004 remains an Observatory finding unless separately adjudicated by NFC.",
+    "Any attempt to close the NS common-state frontier beyond the frozen source requires separately governed new-premise research, including a prospectively declared stock-resolution/turnover law or other source-project redesign."
   ],
   "blockers": [],
   "next_triggers": [
-    "A separately preregistered adversarial audit may be selected after the Project Observatory dependency and uncertainty snapshot is frozen; such an audit must remain noncanonical unless separately integrated under NFC governance."
+    "A separately governed NFC research operation may be opened if the project elects to pursue new-premise common-state completion or another source-project question; Project Observatory must not silently convert its external findings into canon."
   ],
   "superseded_material": [
     "The former NS domain-bounded conditional CERT-CLOSE wording is superseded by MIG-052 and may not be cited as the current NS posture.",
-    "Default-branch repository contents are not sufficient to reconstruct the frozen scientific canon and must not be treated as silently superseding the archived canonical source."
+    "The former default-main README wording that implied the TeX/PDF theorem corpus lived directly on main is superseded by the provenance-hardened routing documentation."
   ],
-  "observed_at": "2026-09-11T21:05:00Z",
+  "observed_at": "2026-09-12",
   "sources": [
     {"path": "CANON_AUTHORITY_MODEL.md", "ref": "archive/nfc-canonical-ed3047c2", "commit": "ed3047c2cbc0abc34d2549dd27754e4d3d05af78"},
     {"path": "FINAL_VALIDATION_REPORT.md", "ref": "archive/nfc-canonical-ed3047c2", "commit": "ed3047c2cbc0abc34d2549dd27754e4d3d05af78"},
     {"path": "NFC_NS_Branch.tex", "ref": "archive/nfc-canonical-ed3047c2", "commit": "ed3047c2cbc0abc34d2549dd27754e4d3d05af78"},
     {"path": "research/NFC_FOUNDATIONAL_REDUCTION_CONTINUITY.md", "ref": "research/foundational-reduction-continuity", "commit": "4d78d21b7750a568cee590d2b749837c3f325d8b"},
-    {"path": "README.md", "ref": "main", "commit": "b8587ce3409e34c0dd4e56c61ee585c07798b0e5"}
+    {"path": "README.md", "ref": "main", "commit": "5072d563b0a3dd4a7643be427cd47108216d8793"},
+    {"path": "PROVENANCE.md", "ref": "main", "commit": "5072d563b0a3dd4a7643be427cd47108216d8793"},
+    {"path": "governance/NFC_PROVENANCE_HARDENING_CLOSURE_V0_1.md", "ref": "main", "commit": "5072d563b0a3dd4a7643be427cd47108216d8793"}
   ],
-  "notes": "Repository provenance is intentionally split: scientific canonical identity is bound to the archive ref, while public main is a stripped publication surface. The noncanonical research continuity branch is evidence about the frozen canon, not an extension of it. Project state READY_FOR_NEXT_OPERATION means the diagnostic program has a resumable continuity record; it does not mean a new NFC scientific operation is already authorized."
+  "notes": "Scientific authority remains bound to the frozen archive ref/commit/tree, not to default-branch presence. The publication main is now an explicit routing/provenance surface rather than an ambiguous stripped tree. Accepted Observatory findings remain external analytical findings unless separately integrated under NFC governance."
 }

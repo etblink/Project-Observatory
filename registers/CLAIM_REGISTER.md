@@ -1,6 +1,6 @@
 # Claim Register
 
-Status: CANONICAL_CLAIM_LAYER_V0_2_CANDIDATE
+Status: CANONICAL_CLAIM_LAYER_V0_3_CANDIDATE
 
 Source boundary: the canonical-source claims below are a bounded Observatory index of material current assertions supported by the reconstructed observed projects. This is not an attempt to reproduce every theorem, issue, acceptance artifact, or project-internal ledger.
 
@@ -23,8 +23,10 @@ Source boundary: the canonical-source claims below are a bounded Observatory ind
 
 ## Accepted Observatory-derived findings — not source-project canon
 
-The following result is recorded separately to preserve the Charter boundary that an Observatory finding does not automatically amend an observed project:
+These results are recorded separately to preserve the Charter boundary that an Observatory finding does not automatically amend an observed project.
 
 - `OBS-U001` is `RESOLVED_AT_AUDITED_SCOPE`: the completed preregistered adversarial program found that frozen NFC does not source-force one universal actual-physical-history selector, and the NS common-state line reaches an explicit new-premise/canon-change boundary rather than a hidden frozen-source closure. The current stopping acceptance is Project Observatory commit `162e9b856ad5aec11b5e965f74737bb03310d556`.
 
-This finding constrains future Observatory reasoning. It does **not** rewrite `NFC_NS_Branch.tex`, introduce a new NFC axiom, or promote a post-freeze candidate completion into canonical NFC.
+- `OBS-U002` is `RESOLVED_AT_AUDITED_SCOPE`: the preregistered finite-interface audit accepted `C__SOURCE_NONFORCING_ESTABLISHED_BY_COUNTERMODEL_OR_INDEPENDENCE_ARGUMENT` at Project Observatory commit `b4bd176246b7e4154241c2965a92faaf5a70d709`. At the audited frozen-source scope, the antecedent quotient/finiteness/stabilization/collar-dynamics package does not by itself force universal LS-2-equivalent bounded-collar factorization. Valid conditional interface theorems survive where sufficiency is independently certified. The audit also identified the Phase-A/LAR universalization route as circular for the source-forcing target; this is docketed as `OBS-D004` without changing NFC's frozen theorem labels.
+
+These findings constrain future Observatory reasoning. They do **not** rewrite NFC source files, introduce new NFC axioms, alter frozen theorem statuses, or promote post-freeze candidate repairs into canonical NFC.

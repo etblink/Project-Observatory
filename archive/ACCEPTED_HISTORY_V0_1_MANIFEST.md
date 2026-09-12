@@ -140,3 +140,32 @@ ACCEPTED_RESULTS_REINTERPRETED = NO
 ```
 
 The archive operation is maintenance/provenance work only. Any future branch deletion remains a separate manual action.
+
+## 9. OBS-U009 provenance-divergence acceptance extension
+
+The accepted OBS-U009 lineage is:
+
+```text
+TARGET_SELECTION = 68d74abca46552a72585fd161232a1ad3f4f0ca1
+PREREGISTRATION = 773a8e9e6f30d6a5ca67c8a28ce2938aa6365928
+EXECUTION = 24dc35bec216bf2db99aeaefb05a048868d6c969
+ACCEPTANCE = 928f5d79c39b15657b9d4f36a096bcac1807dab8
+```
+
+Accepted outcome:
+
+```text
+C__CONTENT_CONTINUITY_AND_MECHANISM_ESTABLISHED__HUMAN_INTENT_UNRESOLVED__HARDENING_REQUIRED
+```
+
+The acceptance endpoint is directly parented into the archive by the provenance-only synthetic commit:
+
+```text
+OBS_U009_ARCHIVE_EXTENSION = eebbd228fab7d1a4be3b3fb5d17ea8460cf201d8
+FIRST_PARENT = ba9b253f618461e2e5c918b2d117bc2c6cba26a0
+SECOND_PARENT = 928f5d79c39b15657b9d4f36a096bcac1807dab8
+```
+
+The extension preserves the prior archive tree and changes no accepted result. The acceptance commit itself retains the U009 execution, preregistration, and selection lineage.
+
+Accordingly, once this manifest update is committed and ancestry is independently verified, `audit/obs-u009-nfc-provenance-divergence` is no longer required for Git reachability and may be considered a manual branch-deletion candidate. This statement does not authorize deletion by the archive operation itself.

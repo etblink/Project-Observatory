@@ -1,119 +1,122 @@
-# Project Observatory Snapshot v0.5
+# Project Observatory Snapshot V0.5 — Freeze Manifest
 
-Status: `FROZEN_CANDIDATE__NO_NEW_TARGET_SELECTED`
+Status: `FROZEN`
 
-## 1. Snapshot basis
-
-Snapshot v0.5 advances Snapshot v0.4 only for accepted-history/provenance maintenance that occurred after v0.4:
+## 1. Frozen identities
 
 ```text
-BASE_SNAPSHOT = 03d4753d7629b02447095db3d63f132f84550d20
-BASE_TREE = 889cda59c10bd4e197a0c3aedb1bf1a0fba12b98
+SNAPSHOT_VERSION = V0.5
+SNAPSHOT_BRANCH = snapshot/project-observatory-v0.5
+
+CONTENT_COMMIT = 9766766efc5f6cfb2453c6cdb898ce0a232cfdc1
+CONTENT_TREE = 3b8e01c9feb1b7f25549733a617a5098fa096445
+CONTENT_PATH = snapshots/PROJECT_OBSERVATORY_SNAPSHOT_V0_5_CONTENT.md
+
+PRIOR_SNAPSHOT_V0_4_FREEZE = 03d4753d7629b02447095db3d63f132f84550d20
+PRIOR_SNAPSHOT_V0_4_TREE = 889cda59c10bd4e197a0c3aedb1bf1a0fba12b98
+
+OBS_U009_ACCEPTANCE = 928f5d79c39b15657b9d4f36a096bcac1807dab8
+ACCEPTED_HISTORY_ARCHIVE_CURRENT = archive/accepted-history-v0.1
+NFC_PROVENANCE_RECONCILIATION = maintenance/PROJECT_OBSERVATORY_NFC_PROVENANCE_RECONCILIATION_V0_1.md
 ```
 
-It incorporates:
+This manifest freezes the post-OBS-U009 / post-NFC-provenance-repair portfolio state. It does not select or execute a new scientific/adversarial target.
 
-1. accepted OBS-U009 provenance-divergence adjudication;
-2. accepted-history archive consolidation and subsequent reachability cleanup;
-3. separately governed NFC provenance hardening implementing accepted H1-H4 routing requirements;
-4. exact revalidation of current default heads for NFC, FCP, PGH, and HiVenues;
-5. register reconciliation only — no new scientific target selection.
-
-## 2. Current observed project identities
+## 2. Observed source heads at freeze
 
 ```text
-NFC publication main = 5072d563b0a3dd4a7643be427cd47108216d8793
-NFC scientific canon ref = archive/nfc-canonical-ed3047c2
-NFC canon tag = nfc-canonical-ed3047c2
-NFC canon commit = ed3047c2cbc0abc34d2549dd27754e4d3d05af78
-NFC canon tree = 00ef55ff36d5e9663ca1ef2c9566e2bc1396f973
-NFC historical release tag v1.0-canon-rewrite = 716e6fae585251185ffd15775dd923132f16c88e
+NFC_PUBLICATION_MAIN = 5072d563b0a3dd4a7643be427cd47108216d8793
+NFC_SCIENTIFIC_CANON = archive/nfc-canonical-ed3047c2@ed3047c2cbc0abc34d2549dd27754e4d3d05af78
+NFC_CANON_TREE = 00ef55ff36d5e9663ca1ef2c9566e2bc1396f973
+NFC_CANON_TAG = nfc-canonical-ed3047c2
+NFC_RELEASE_TAG = v1.0-canon-rewrite@716e6fae585251185ffd15775dd923132f16c88e
 
-FCP main = a41bc6101b63140ee2687e0cf67a47ab6be77215
-PGH main = d8a16161f33d3bb8f97c15f095ca651c169f5896
-HiVenues main = 9351655112a25fd8a1d115d8c402534726b1e035
+FCP_MAIN = a41bc6101b63140ee2687e0cf67a47ab6be77215
+PGH_MAIN = d8a16161f33d3bb8f97c15f095ca651c169f5896
+HIVenues_MAIN = 9351655112a25fd8a1d115d8c402534726b1e035
 ```
 
-FCP, PGH, and HiVenues default heads are unchanged from v0.4. NFC publication `main` moved only through provenance/routing maintenance; the frozen scientific canon did not move.
+FCP, PGH, and HiVenues default heads remain unchanged from v0.4. NFC publication `main` moved only through separately governed provenance/routing maintenance; the frozen scientific canon did not move.
 
-## 3. OBS-U009 closure
-
-Accepted Observatory lineage:
+## 3. Frozen Observatory conclusions
 
 ```text
-SELECTION = 68d74abca46552a72585fd161232a1ad3f4f0ca1
-PREREGISTRATION = 773a8e9e6f30d6a5ca67c8a28ce2938aa6365928
-EXECUTION = 24dc35bec216bf2db99aeaefb05a048868d6c969
-ACCEPTANCE = 928f5d79c39b15657b9d4f36a096bcac1807dab8
-```
+OBS_U001 = RESOLVED_AT_AUDITED_SCOPE
+OBS_U002 = RESOLVED_AT_AUDITED_SCOPE
+OBS_U003 = RESOLVED_AT_AUDITED_SCOPE
+OBS_U009 = RESOLVED_AT_AUDITED_SCOPE
 
-Accepted outcome:
-
-```text
+OBS_U009_CONTROLLING_OUTCOME =
 C__CONTENT_CONTINUITY_AND_MECHANISM_ESTABLISHED__HUMAN_INTENT_UNRESOLVED__HARDENING_REQUIRED
 ```
 
-Separately governed NFC repair then completed:
+The subsequently authorized NFC provenance repair completed the accepted routing package:
 
 ```text
-H1 durable canonical anchor = COMPLETE_AT_ROUTING_SCOPE
-H2 historical v1 release anchor = COMPLETE
-H3 default-main source routing = COMPLETE
-H4 repository-native provenance crosswalk = COMPLETE
+H1_DURABLE_CANONICAL_ANCHOR = COMPLETE_AT_ROUTING_SCOPE
+H2_V1_RELEASE_ANCHOR = COMPLETE
+H3_DEFAULT_MAIN_ROUTING = COMPLETE
+H4_REPOSITORY_NATIVE_PROVENANCE_CROSSWALK = COMPLETE
 ```
 
-This repair does not alter theorem content or frozen scientific status.
+No theorem-bearing NFC source content or scientific status changed.
 
-## 4. Discrepancy closure
+## 4. Discrepancy and dependency freeze
 
 ```text
-OBS-D001 = RESOLVED_AT_PROVENANCE_ROUTING_SCOPE
+OBS_D001 = RESOLVED_AT_PROVENANCE_ROUTING_SCOPE
+OBS_D005 = RESOLVED_BY_ACCEPTED_HISTORY_ARCHIVE
+OBS_D004 = OBSERVATORY_IDENTIFIED__SOURCE_REPAIR_NOT_AUTHORIZED
+
+OBS_DP016 = ACCEPTED_HISTORY_ARCHIVE_RETENTION_RULE__SATISFIED_FOR_COMPLETED_CLEANUP
+OBS_DP017 = NFC_CANONICAL_ROUTING_PACKAGE_CONTROLS_FUTURE_SOURCE_SELECTION
 ```
 
-Publication and scientific-canon identities remain distinct by design; the former source-selection defect is repaired through explicit routing, exact tags, and provenance documentation.
+Publication `main` and scientific canon remain distinct by design. The former source-selection defect is resolved by explicit routing, exact tags, and provenance documentation rather than by collapsing the two histories.
+
+## 5. Current information-gain routing
 
 ```text
-OBS-D005 = RESOLVED_BY_ACCEPTED_HISTORY_ARCHIVE
+PGH_D1_EMPIRICAL = OBS-U004__EXTERNALLY_GATED
+FCP_NEXT_TRIGGER = OBS-U005__EVIDENCE_GATED
+HIVenues_ISSUE_199 = OBS-U006__ASTRA_QUARANTINED
+HIVenues_VISUAL_PM4_EXIT = OBS-U007__SEQUENCED_AND_QUARANTINED
+ASTRA_INDEPENDENT_RESULT = OBS-U008__OPERATIONALLY_GATED
+NFC_NS_NEW_PREMISE_RESEARCH = OBS-U010__SOURCE_PROJECT_BOUNDARY
 ```
 
-`archive/accepted-history-v0.1` now carries the reachability burden formerly distributed across many independent acceptance/audit refs. Redundant branch cleanup therefore no longer threatens accepted-history reachability so long as the archive ref remains intact.
+At this freeze there is no high-value internally executable Observatory substitute target that respects all project firewalls and outranks the gated work.
 
-`OBS-D004` remains unresolved at source-project level and is not altered by provenance maintenance.
-
-## 5. Active uncertainty posture
-
-Active high-value uncertainties remain:
+Accordingly:
 
 ```text
-OBS-U004 PGH D1 empirical test        -> externally hardware/apparatus gated
-OBS-U005 FCP next evidence trigger     -> evidence gated
-OBS-U006 HiVenues #199 completion      -> Astra independence quarantine
-OBS-U007 HiVenues visual/#200 quality  -> sequenced after #199 + quarantine
-OBS-U008 Astra greenfield comparison   -> operationally gated until isolated run
-OBS-U010 NFC NS new-premise completion -> source-project research, not frozen-source Observatory derivation
-```
-
-There is no presently eligible high-information internal Observatory substitute target that respects all project firewalls and outranks the gated work.
-
-## 6. Routing decision
-
-```text
-NEXT_OBSERVATORY_TARGET_SELECTED = NO
-INTERNAL_MAKE_WORK_AUTHORIZED = NO
+HIGHEST_INTERNAL_ACTIONABLE_OBSERVATORY_TARGET = NONE_AT_CURRENT_GATE_STATE
+NEW_TARGET_SELECTED = NO
 U010_AUTO_SELECTED = NO
+INTERNAL_MAKE_WORK_AUTHORIZED = NO
 ```
 
-The correct information-gain posture is to preserve readiness and re-rank when an external gate changes. Selecting NFC U010 would require a separately governed NFC new-premise research authorization rather than an Observatory continuation by default.
+A changed external gate must trigger re-ranking before any later target-selection operation.
 
-## 7. Scientific and governance firewall
+## 6. Freeze firewall
 
 ```text
-NFC_THEOREM_CONTENT_CHANGED_BY_OBSERVATORY = NO
-FCP_SCIENCE_MUTATED = NO
-PGH_SCIENCE_MUTATED = NO
-HIVENUES_IMPLEMENTATION_MUTATED = NO
-OBSERVATORY_DEFAULT_MAIN_REWRITTEN = NO
-NEW_ADVERSARIAL_TARGET_OPENED = NO
+PROJECT_OBSERVATORY_CORE_MISSION = ACTIVE
+CANONICAL_STATE_REFRESH_V0_5 = COMPLETE
+DEPENDENCY_REFRESH_V0_5 = COMPLETE
+UNCERTAINTY_REFRESH_V0_5 = COMPLETE
+NFC_PROVENANCE_RECONCILIATION = COMPLETE
+SNAPSHOT_V0_5 = FROZEN
+
+NEW_TARGET_SELECTED = NO
+NEW_AUDIT_PREREGISTERED = NO
+NEW_AUDIT_EXECUTED = NO
+
+NFC_THEOREM_CONTENT_MUTATED_BY_OBSERVATORY = NO
+FCP_REPOSITORY_MUTATED = NO
+PGH_REPOSITORY_MUTATED = NO
+HIVenues_REPOSITORY_MUTATED = NO
+PROJECT_OBSERVATORY_DEFAULT_MAIN_REWRITTEN = NO
 ```
 
-This snapshot freezes the post-U009/post-provenance-repair portfolio state only.
+Hard stop after freeze. Any later NFC U010 research authorization, external-gate-triggered operation, default-branch rewrite, or new adversarial target selection is a separate operation.

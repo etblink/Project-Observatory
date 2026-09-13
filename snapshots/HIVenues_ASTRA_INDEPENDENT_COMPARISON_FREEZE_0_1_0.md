@@ -1,0 +1,45 @@
+# HiVenues ↔ Independent GPT-6 Astra — Comparison Freeze 0.1.0
+
+## Frozen content identity
+
+```text
+CONTENT_COMMIT = 2fc9ae32f066fac00104f53abd75bd5396188cab
+CONTENT_TREE = 082d2959d41e5b2b41b711b213c662f00910067c
+BASE_OBSERVATORY_SNAPSHOT = 3b4e364cfc04f1ecb06bf90053a029bcace8b04a
+```
+
+## Frozen source inputs
+
+```text
+EXISTING_HIVENUES_COMMIT = 9351655112a25fd8a1d115d8c402534726b1e035
+EXISTING_HIVENUES_TREE = 15e1d93a6f84bbca233e9313410b29bc88ef470b
+ASTRA_GREENFIELD_COMMIT = e7a03c1aa7e5b8a30e7e8a77b3d927f9e168daf2
+ASTRA_GREENFIELD_TREE = 9810d4d44fae5bb43bfd28ce8a350306307aa22c
+```
+
+Existing `main` was rechecked immediately before freeze and remained at the bound commit.
+
+## Result
+
+```text
+READ_ONLY_ADJUDICATION = COMPLETE
+COMPARATIVE_RESULT = COMPLEMENTARY_WITH_MATERIAL_PRODUCT_THESIS_DIVERGENCE
+OVERALL_WINNER = NONE_ASSIGNED
+SOURCE_PROJECT_MUTATION = NONE
+ASTRA_MUTATION = NONE
+CODE_PORTING = NONE
+NEXT_HIGHEST_INFORMATION_ACTION = BLIND_TASK_BASED_USER_TEST
+```
+
+## Frozen content paths
+
+```text
+audits/HIVenues_ASTRA_INDEPENDENT_COMPARISON_PREREGISTRATION_0_1_0.md
+audits/HIVenues_ASTRA_INDEPENDENT_COMPARISON_SOURCE_BINDING_0_1_0.md
+audits/HIVenues_ASTRA_INDEPENDENT_COMPARISON_EVIDENCE_MATRIX_0_1_0.md
+audits/HIVenues_ASTRA_INDEPENDENT_CONVERGENCE_AND_SYNTHESIS_LEDGER_0_1_0.md
+audits/HIVenues_ASTRA_INDEPENDENT_COMPARISON_ADJUDICATION_0_1_0.md
+handoffs/HIVenues_ASTRA_INDEPENDENT_COMPARISON_HANDOFF_0_1_0.md
+```
+
+This freeze manifest is outside `CONTENT_TREE` by construction. The commit containing this manifest is the transport/freeze tip; `CONTENT_COMMIT` and `CONTENT_TREE` bind the exact adjudication corpus before the manifest was added.

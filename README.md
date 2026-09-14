@@ -11,11 +11,11 @@ Cross-project, read-only observatory for reconstructing canonical state, depende
 - Post-v0.1 NFC source-forcing audit: **EXECUTED AND ACCEPTED** as `C__SOURCE_NONFORCING_ESTABLISHED_AT_AUDITED_SCOPE`.
 - SCC recursivity adversarial reversal: **EXECUTED AND ACCEPTED** as `C__SCC_RECURSIVITY_CANONICALIZES_WITHOUT_ACTUALIZING`.
 - Observatory audit-history recovery: **COMPLETE**; exact preregistration/acceptance artifacts were restored from their original immutable commits.
-- Canonical project-state reconstruction v0.2: **COMPLETE / READY TO FREEZE**.
-- Material claim index v0.2: **COMPLETE / READY TO FREEZE**.
-- Dependency reconstruction v0.2: **COMPLETE / READY TO FREEZE**.
-- Uncertainty / information-gain register v0.2: **COMPLETE / READY TO FREEZE**.
-- Discrepancy docket and external-trigger register v0.2: **COMPLETE / READY TO FREEZE**.
+- Canonical project-state reconstruction v0.2: **FROZEN**.
+- Snapshot v0.2 content commit: `fbc9013f2b10b2d8dec11c602079ccb8dc60f03d`.
+- Snapshot v0.2 content tree: `110f44d8723b1900e96acd1118dea54df4ac3cec`.
+- Snapshot v0.2 manifest: `snapshots/PROJECT_OBSERVATORY_SNAPSHOT_V0_2.md`.
+- Snapshot v0.2 manifest commit: `f4fc384e748a4cedf0ccc55523a09121ce181143`.
 - Pass record: `audits/PROJECT_OBSERVATORY_PASS_2026_09_14_V0_2.md`.
 - Observed-project mutation by this pass: **NONE**.
 
@@ -30,6 +30,11 @@ Cross-project, read-only observatory for reconstructing canonical state, depende
 
 ## Current routing
 
-The v0.2 pass does **not** select a new NFC adversarial target, open a new FCP scientific operation, authorize PGH physical trials, or authorize HiVenues production/external effects.
+Snapshot v0.2 does **not** select a new NFC adversarial target, open a new FCP scientific operation, authorize PGH physical trials, or authorize HiVenues production/external effects.
 
-The next Observatory action is snapshot freeze only: bind the exact final v0.2 reconstruction content commit and tree in `snapshots/PROJECT_OBSERVATORY_SNAPSHOT_V0_2.md`. Snapshot v0.1 remains immutable and is not rewritten.
+- NFC: the two actualization audits are accepted at bounded post-freeze scope; remaining closed-source uncertainties include finite-interface sufficiency and globalization, but neither is selected here.
+- FCP: remain on evidence-triggered hold.
+- PGH: next scientific operation requires real D1 apparatus realization/binding before target freeze and analysis preregistration.
+- HiVenues: Candidate C Phase 2B is the active bounded product program under Issue #258; live-host migration and external effects remain prohibited in this phase.
+
+Snapshot v0.1 remains immutable historical state; v0.2 supersedes it only as the current reconstruction layer.

@@ -3,33 +3,42 @@
   "name": "HiVenues",
   "repository": "etblink/HiVenues",
   "canonical_ref": "main",
-  "canonical_commit": "9351655112a25fd8a1d115d8c402534726b1e035",
-  "state": "FROZEN",
-  "summary": "The existing HiVenues product is in PM4 with Issue #199 still open. Canonical main includes the accepted shared-menu scalar slice from PR #207. The repository is deliberately parked by the operator while an isolated GPT-6 Astra greenfield challenge runs independently.",
+  "canonical_commit": "bf9a0b4e61d57eed6bb5a81504d6e030f8b6ff7c",
+  "state": "ACTIVE",
+  "summary": "HiVenues has moved far beyond the prior parked PM4 snapshot. The independent Fable and GPT-6 Astra greenfield builds were frozen and blind-adjudicated, Candidate C synthesis was chartered from their strongest independent discoveries plus the mature substrate, and Candidate C Phase 2A is canonically accepted on main with ACCEPT / H1_CONTINUE. Issue #258 now governs bounded Phase 2B production-substrate and expressive-breadth work.",
   "accepted_results": [
-    "Canonical main 9351655112a25fd8a1d115d8c402534726b1e035 is the merged PR #207 tree for shared menu title, section title, item name, optional description, and price-label editing through ordinary Studio controls.",
-    "PR #207 records accepted head 1d5f243f8a3cfcd7b5fe87b403edaad6c6b60df9, identical canonical tree 15e1d93a6f84bbca233e9313410b29bc88ef470b, CI756 success, independent A/B/C pass, and canonical CI757 pass.",
-    "Issue #199 remains open; earlier bounded slices accepted resource scalar editing and resource lifecycle/list-order work without closing PM4.",
-    "Issue #200 remains open as the final measured quality/release gate after reference work and complete operator-journey work."
+    "Candidate C charter records GREENFIELD_A = CLAUDE_FABLE_5_1 / FROZEN and GREENFIELD_B = GPT_6_ASTRA / FROZEN, with model identities revealed only after blind adjudication; the prior Astra quarantine objective is therefore satisfied.",
+    "Candidate C doctrine is host-first: the host's world becomes the interface to Hive, one canonical host graph supports many faithful projections, and metaphor is permitted at the experience layer while consequence semantics remain truthful.",
+    "Phase 2A was accepted at exact head c677e2faf59fe23b3383ef54e72619d6ab677c63, tree 677ea895205fbd360ae37a2169c8e2968575cc4a, and merged as canonical main bf9a0b4e61d57eed6bb5a81504d6e030f8b6ff7c.",
+    "Phase 2A acceptance is ACCEPT / H1_CONTINUE: a server/HTML-owned durable-state default remains viable, with custom client code limited to transient interaction state in the accepted slice.",
+    "Canonical post-merge CI #923 passed on main@bf9a0b4e61d57eed6bb5a81504d6e030f8b6ff7c.",
+    "Phase 2A preserves the hard boundary: no live-host migration, Hive write, signing, payment effect, provider mutation, external media upload, production deployment, or DNS/VPS effect was authorized by the merge."
   ],
   "open_questions": [
-    "Issue #199 remaining work includes menu creation/removal/order, ticket and reservation actions, timestamp editing, general media, component recipes/catalog completion, and complete fresh-archetype journeys.",
-    "After #199, the planned explicit idealized-vs-current 2026 visual convergence remains to be performed.",
-    "Issue #200 must then adjudicate the four references and complete operator journey against measured Tracks A/B/C quality-release gates."
+    "Can Phase 2B replace process-local canonical persistence with durable restart-safe/concurrency-safe workspace and immutable Release persistence without browser-mirrored canonical state?",
+    "Can the Media plane gain durable identity/provenance and real admitted assets while preserving truthful provider and external-effect boundaries?",
+    "Can a third genuinely structural composition prove frontend-factory breadth rather than theme-level variation?",
+    "Can Studio deepen Look / Voice / Connect / Activity capability without losing calmness or forcing durable state into custom client islands?",
+    "Can the dependency-closed urgent website-release path publish a live-base cancellation/status change without leaking unrelated draft work?",
+    "Will the H1 architecture continue to survive Phase 2B stress, require a narrow hybrid, or be falsified for a subsystem?"
   ],
-  "blockers": [
-    "Deliberate operator-imposed isolation: existing HiVenues work is parked so the independent GPT-6 Astra greenfield challenge is not contaminated by the current implementation."
-  ],
+  "blockers": [],
   "next_triggers": [
-    "GPT-6 Astra usage credits are expected to become available on 2026-09-14 so the existing isolated Work session can be continued.",
-    "Completion of Astra's independent greenfield challenge and preservation of its output as an independent comparison point before resuming cross-pollination with the existing HiVenues implementation."
+    "Execute Issue #258 / Candidate C Phase 2B on branch candidate-c/phase2b-production-substrate, which currently starts exactly at canonical main bf9a0b4e61d57eed6bb5a81504d6e030f8b6ff7c.",
+    "Any later live-host migration or external Hive/provider/payment/signing/deployment/DNS/VPS effect requires a separately qualified and authorized operation; Phase 2B does not authorize it."
   ],
-  "superseded_material": [],
-  "observed_at": "2026-09-11T21:05:00Z",
+  "superseded_material": [
+    "The prior Observatory state FROZEN pending Astra credits/handoff is superseded: both independent greenfield results were frozen and blind-adjudicated before Candidate C synthesis.",
+    "The prior HiVenues current-state focus on open Issue #199 and pre-convergence PM4 work is superseded as current routing by the Candidate C synthesis/implementation program, while historical PM4 evidence remains preserved in repository history.",
+    "The prior canonical HiVenues commit 9351655112a25fd8a1d115d8c402534726b1e035 is superseded for current-state reconstruction by bf9a0b4e61d57eed6bb5a81504d6e030f8b6ff7c."
+  ],
+  "observed_at": "2026-09-14T21:04:00Z",
   "sources": [
-    {"path": "pull/207", "ref": "main", "commit": "9351655112a25fd8a1d115d8c402534726b1e035"},
-    {"path": "issues/199", "ref": "main", "commit": "9351655112a25fd8a1d115d8c402534726b1e035"},
-    {"path": "issues/200", "ref": "main", "commit": "9351655112a25fd8a1d115d8c402534726b1e035"}
+    {"path": "issues/245", "ref": null, "commit": null},
+    {"path": "pull/257", "ref": "main", "commit": "bf9a0b4e61d57eed6bb5a81504d6e030f8b6ff7c"},
+    {"path": "docs/CANDIDATE_C_PHASE2A_IMPLEMENTATION_NOTES_0_1_0.md", "ref": "main", "commit": "bf9a0b4e61d57eed6bb5a81504d6e030f8b6ff7c"},
+    {"path": "issues/258", "ref": null, "commit": null},
+    {"path": ".github/workflows/ci.yml", "ref": "main", "commit": "bf9a0b4e61d57eed6bb5a81504d6e030f8b6ff7c"}
   ],
-  "notes": "FROZEN is an Observatory operational state, not a claim that the GitHub repository is complete or technically blocked. The isolation rule is user-directed and exists to preserve the independence of the separate Astra greenfield experiment."
+  "notes": "ACTIVE reflects an explicitly opened bounded implementation phase, not permission for production/external effects. The Phase 2B branch existed at observation time and still pointed exactly to the Phase 2A canonical baseline; no Phase 2B implementation commit or PR was yet observable through GitHub at this pass."
 }

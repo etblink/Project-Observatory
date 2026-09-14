@@ -5,35 +5,36 @@
   "canonical_ref": "archive/nfc-canonical-ed3047c2",
   "canonical_commit": "ed3047c2cbc0abc34d2549dd27754e4d3d05af78",
   "state": "READY_FOR_NEXT_OPERATION",
-  "summary": "The frozen scientific canon is recoverable at archive/nfc-canonical-ed3047c2, while the repository default main is a stripped public surface containing only README/CITATION/LICENSE. A separate noncanonical foundational-reduction continuity branch records later adversarial diagnostics without modifying the frozen canon.",
+  "summary": "The frozen theorem-bearing NFC canon remains exactly archive/nfc-canonical-ed3047c2@ed3047c2. Publication main has since been provenance-hardened so it explicitly routes readers to that canon. Two post-freeze adversarial findings are now accepted at audited scope: the frozen source does not force one universal actual-physical-history selector, and SCC recursive canonicalization does not itself actualize one admissible history.",
   "accepted_results": [
-    "Frozen canonical source boundary is commit ed3047c2cbc0abc34d2549dd27754e4d3d05af78; later diagnostic research explicitly preserves the rule that frozen canon plus later diagnostics does not equal expanded canon.",
-    "The canonical rewrite/validation corpus contains seven spine books and ten branch books with validation machinery and a frozen authority model separating status, frontier, obligation, and branch-posture accountings.",
-    "MIG-052 Corrective J controls the canonical Navier–Stokes posture: CERT-PROJ / open common-state frontier; ob:NS-common-state-bridge is the sole formal internal [O], UWB is a separate unproved conditional scope hypothesis, and unconditional Stage-3 regularity remains external.",
-    "At the MIG-052 tip the stated corpus census is D461/U211/C749/B9/O6/R366 and the reduced internal frontier is 5."
+    "Frozen scientific-canon identity remains archive/nfc-canonical-ed3047c2@ed3047c2cbc0abc34d2549dd27754e4d3d05af78 with tree 00ef55ff36d5e9663ca1ef2c9566e2bc1396f973.",
+    "MIG-052 Corrective J remains the controlling frozen Navier-Stokes posture; no post-freeze operation rewrote the theorem corpus.",
+    "Post-freeze source-forcing audit was independently accepted as C__SOURCE_NONFORCING_ESTABLISHED_AT_AUDITED_SCOPE: source structure constrains admissibility/order but does not force one universal actual-history selector at the audited scope.",
+    "Dedicated SCC adversarial reversal was independently accepted as C__SCC_RECURSIVITY_CANONICALIZES_WITHOUT_ACTUALIZING; the result strengthens rather than overturns source-level nonforcing.",
+    "The accepted post-freeze registration sharpens the missing object class to ACTUALIZATION_LAW_OVER_ADMISSIBLE_HISTORIES without promoting that finding into the frozen theorem corpus.",
+    "Publication/provenance hardening is complete at routing scope: exact canon and release tags are restored/verified, default-main routing is explicit, and no theorem-bearing scientific source changed."
   ],
   "open_questions": [
-    "Full-corpus source forcing/nonforcing remains unresolved in the noncanonical foundational-reduction continuity record.",
-    "A canonical physical selection bridge from the maximal admissible process class to the actual physical history is not established.",
-    "Physical interpretation and empirical authority are absent from the frozen foundational source boundary recorded by the diagnostic continuity document.",
-    "Finite interface sufficiency / LS-2-like screening remains an additional hypothesis rather than a consequence of locality alone.",
-    "The strong historical 'No Universal Wavefunction' impossibility claim is withdrawn in the diagnostic continuity record; the globalization-obstruction question remains open."
+    "OBS-U002 remains open: whether finite-interface / LS-2-like sufficiency is derivable from frozen locality structure or remains an independent hypothesis.",
+    "OBS-U003 remains open: what weaker globalization obstruction, if any, is actually forced by the frozen canon after withdrawal of the strong historical impossibility claim.",
+    "No new post-v0.2 NFC adversarial target or crosswalk is selected by this reconstruction pass."
   ],
   "blockers": [],
   "next_triggers": [
-    "A separately preregistered adversarial audit may be selected after the Project Observatory dependency and uncertainty snapshot is frozen; such an audit must remain noncanonical unless separately integrated under NFC governance."
+    "A separately authorized and prospectively preregistered next audit may be selected from the remaining frozen-canon uncertainties; selection is not implied by READY_FOR_NEXT_OPERATION.",
+    "Any future NFC-PGH conceptual crosswalk must be separately preregistered and must preserve the proof-force firewall between the projects."
   ],
   "superseded_material": [
-    "The former NS domain-bounded conditional CERT-CLOSE wording is superseded by MIG-052 and may not be cited as the current NS posture.",
-    "Default-branch repository contents are not sufficient to reconstruct the frozen scientific canon and must not be treated as silently superseding the archived canonical source."
+    "The prior Observatory statement that OBS-U001 source forcing was unresolved is superseded by the accepted post-freeze source-forcing adjudication.",
+    "OBS-D001's unresolved provenance-routing defect is superseded at routing scope by NFC provenance hardening; the frozen scientific canon itself remains unchanged."
   ],
-  "observed_at": "2026-09-11T21:05:00Z",
+  "observed_at": "2026-09-14T21:04:00Z",
   "sources": [
     {"path": "CANON_AUTHORITY_MODEL.md", "ref": "archive/nfc-canonical-ed3047c2", "commit": "ed3047c2cbc0abc34d2549dd27754e4d3d05af78"},
-    {"path": "FINAL_VALIDATION_REPORT.md", "ref": "archive/nfc-canonical-ed3047c2", "commit": "ed3047c2cbc0abc34d2549dd27754e4d3d05af78"},
     {"path": "NFC_NS_Branch.tex", "ref": "archive/nfc-canonical-ed3047c2", "commit": "ed3047c2cbc0abc34d2549dd27754e4d3d05af78"},
-    {"path": "research/NFC_FOUNDATIONAL_REDUCTION_CONTINUITY.md", "ref": "research/foundational-reduction-continuity", "commit": "4d78d21b7750a568cee590d2b749837c3f325d8b"},
-    {"path": "README.md", "ref": "main", "commit": "b8587ce3409e34c0dd4e56c61ee585c07798b0e5"}
+    {"path": "audits/NFC_POST_FREEZE_ACTUALIZATION_FINDINGS_ACCEPTED_REGISTRATION_V0_1.md", "ref": null, "commit": "0c8617e93a419439c84aeba241653b30f27e785d"},
+    {"path": "README.md", "ref": "main", "commit": "5072d563b0a3dd4a7643be427cd47108216d8793"},
+    {"path": "governance/NFC_PROVENANCE_HARDENING_CLOSURE_V0_1.md", "ref": "main", "commit": "5072d563b0a3dd4a7643be427cd47108216d8793"}
   ],
-  "notes": "Repository provenance is intentionally split: scientific canonical identity is bound to the archive ref, while public main is a stripped publication surface. The noncanonical research continuity branch is evidence about the frozen canon, not an extension of it. Project state READY_FOR_NEXT_OPERATION means the diagnostic program has a resumable continuity record; it does not mean a new NFC scientific operation is already authorized."
+  "notes": "Scientific canonical identity and publication-main identity remain deliberately distinct. Accepted post-freeze audits are scope/provenance findings about the frozen canon, not retroactive canonical theorems. READY_FOR_NEXT_OPERATION means no external blocker prevents a separately governed next diagnostic operation; none is selected here."
 }
